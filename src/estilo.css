@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    cursor: pointer;
+    min-height: 100vh;
+    position: relative;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('fondo.png');
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    height: 100%;
+    position: absolute;
+      backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+  }

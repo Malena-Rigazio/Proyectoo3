@@ -1,0 +1,83 @@
+/*///////////////////////////////////////////////Login*/
+
+
+.Login {
+	width: 450px;
+  height: 300px;
+	padding: 50px;
+	margin: 0 auto;
+  margin-top: 50px;
+	align-items: center;
+  border-radius: 10px;
+	justify-items: center;
+	backdrop-filter: blur(10px);
+	border: 2px solid rgb(18, 136, 44);
+	background-color:rgba(69, 199, 97, 0.164);
+	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+
+.titulo {
+  padding: 0;
+  margin: 25px;
+  color: white;
+  text-align: center;
+  margin-left: 185px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.titLogin {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.user,.pasw {
+  color: white;
+  font-size: 15px;
+}
+
+input::placeholder {
+  opacity: 0.25;
+  color: white;
+}
+
+.Login .elemento input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  outline: none;
+  margin-bottom: 30px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid white;
+}
+
+.btnLogin {
+  border: none;
+  color: white;
+  width: 400px;
+	border: none;
+  margin-top: 20px;
+	padding: 15px;
+  margin-left: 20px;
+	text-transform: uppercase;
+  border-radius: 10px;
+	background-color:rgb(18, 136, 44);
+	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+
+.btnLogin:hover {
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(0, 116, 8);
+}
+
+.errorLogin {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: -300px;
+}
